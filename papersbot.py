@@ -27,14 +27,9 @@ import tweepy
 
 # This is the regular expression that selects the papers of interest
 regex = re.compile(r"""
-  (   \b(MOF|MOFs|COF|COFs|ZIF|ZIFs)\b
-    | metal.organic.framework
-    | covalent.organic.framework
-    | metal–organic.framework
-    | covalent–organic.framework
-    | imidazolate.framework
-    | porous.coordination.polymer
-    | framework.material
+  (   \b(XFEL|xfel)\b
+    | X[- ]?ray.free.electron.laser
+    | \b(LCLS|SACLA)\b
   )
   """, re.IGNORECASE | re.VERBOSE)
 
