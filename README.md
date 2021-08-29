@@ -1,10 +1,10 @@
-# cryoEMpapersbot
+# XFELpapersbot
 
-cryoEMpapersbot is an academic Twitter bot: it reads RSS feeds from journals and preprint archives, selects papers based on keyword matching, and tweets them.
+XFELpapersbot is an academic Twitter bot: it reads RSS feeds from journals and preprint archives, selects papers based on keyword matching, and tweets them.
 
 FX Coudert ([@fxcoudert](https://twitter.com/fxcoudert)) wrote PapersBot to operate [@MOF_papers](https://twitter.com/MOF_papers) twitter bot, which tweets papers about metal–organic frameworks and related nanoporous materials.
 
-cryoEMpapersbot is an offspring of PapersBot which was inspired by (and borrows some code from) [feedr](https://github.com/housed/feedr).
+XFELpapersbot is an offspring of PapersBot which was inspired by (and borrows some code from) [feedr](https://github.com/housed/feedr).
 
 ---
 
