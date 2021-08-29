@@ -1,5 +1,5 @@
 #!/bin/bash
 source ~/.bash_profile
 conda activate cryoempapers
-cd ~/Projects/cryoEMpapersbot
+cd ~/Projects/XFELpapersbot
 ./papersbot.py
