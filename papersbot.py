@@ -36,6 +36,8 @@ regex = re.compile(r"""
     | \b(Shanghai.[hH]ard.X[- ]?[rR]ay.FEL)\b
     | \b(FERMI@?.Elettra)\b
     | \b(FLASH[1,2]|FLASH-?II)\b
+	| \b(CXFEL|Compact.XFEL)\b
+	| \b(X[- ]?[rR]ay.[sS]ingle.[pParticle].[iI]maging|X[- ]?[rR]ay.SPI)\b
   )
   """, re.IGNORECASE | re.VERBOSE)
 
