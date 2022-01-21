@@ -27,7 +27,7 @@ import tweepy
 
 # This is the regular expression that selects the papers of interest
 regex = re.compile(r"""
-  (   \b(X[- ]?[rR]ay.[fF]ree.[eE]lectron.[lL]asers?|XFEL|xfel)\b
+  (   \b([xX][- ]?[rR]ay.[fF]ree.[eE]lectron.[lL]asers?|XFEL|xfel)\b
     | \b(LCLS)\b
     | \b(SACLA)\b
     | \b(European.XFEL|Eu-?X?FEL)\b
@@ -37,7 +37,7 @@ regex = re.compile(r"""
     | \b(FERMI@?.Elettra)\b
     | \b(FLASH[1,2]|FLASH-?II)\b
 	| \b(CXFEL|Compact.XFEL)\b
-	| \b(X[- ]?[rR]ay.[sS]ingle.[pParticle].[iI]maging|X[- ]?[rR]ay.SPI)\b
+	| \b([xX][- ]?[rR]ay.[sS]ingle.[pParticle].[iI]maging|[xX][- ]?[rR]ay.SPI)\b
   )
   """, re.IGNORECASE | re.VERBOSE)
 
